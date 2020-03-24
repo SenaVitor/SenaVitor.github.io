@@ -3,35 +3,41 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Página Inicial</title>
+	<title>Portfólio Vitor Lucas</title>
 	<link rel="shortcut icon" href="imagens/logo.png">
 	<link rel="stylesheet" type="text/css" href="home.css">
 <!--<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->	
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body id="body">
-	<nav id="menu" class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links-menu">
-					<i style="color: #E7DFDD;" class="material-icons">menu</i> 
-				</button>
-			</div>
-			<nav id="links-menu" class="collapse navbar-collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a style="color: #E7DFDD;" href="#programacao">Projetos de Programacão</a></li>
-					<li><a style="color: #E7DFDD;" href="#web">Projetos de P.Web</a></li>
-					<li><a style="color: #E7DFDD;" href="#manutencao">Projetos de Manutenção</a></li>
-					<li><a style="color: #E7DFDD;" href="#redes">Projetos de Redes</a></li>
-					<li><a style="color: #E7DFDD;" href="#design">Projetos de Design</a></li>
-					<li><a style="color: #E7DFDD;" href="#carouselRobotica">Projetos de Robótica</a></li>
-				</ul>
-			</nav>
-		</div>	
-	</nav>
-	<div class="container col-11" align="justify">
-		<br><br>
-		<center><h1>Projetos de Programação</h1></center>
+	 <nav class="col-lg-12 col-sm-12 col-xm-12 menu navbar navbar-light navbar-expand-lg fixed-top" style="background-color: #f5f5f5;">
+      <a class="navbar-brand" href="#"><img src="imagens/logo.png" width="90px;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarsExample01">
+        <ul class="navbar-nav mr-auto">
+        	<li class="nav-item active">
+            	<a class="nav-link" href="#sobre">Sobre Mim</a>
+          	</li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#programacao">Projetos de Programação</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#web">Projetos de Programação Web</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#manutencao">Projetos de Manutenção/Redes/Robótica</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#design">Projetos de Design</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br><br><br><br>
+	<div class="container col-lg-11" align="justify">
+		<center><h1 id="programacao" class="materia">Projetos de Programação</h1></center>
 		<br>
 		<!-- projeto Calculador Aritmético -->
 		<div class="row">
@@ -43,10 +49,14 @@
 				  </ol>
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
-				      <img class="d-block w-100" src="imagens/programacao/calculador_aritmetico.png" alt="First slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/calculador_aritmetico.png" alt="First slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/calculador_aritmetico_codigo.png" alt="Second slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/calculador_aritmetico_codigo.png" alt="Second slide">
+				    	</div>
 				    </div>
 				  </div>
 				  <a class="carousel-control-prev" href="#carouselCalculador" role="button" data-slide="prev">
@@ -60,7 +70,7 @@
 				</div>
 			</div>
 			<div class="col-lg-6">
-				<h1>Projeto Calculador Aritmético</h1>
+				<h1 id="projeto">Projeto Calculador Aritmético</h1>
 				<p>
 					Esse é o meu trabalho final da disciplina de Lógica de Programação feitoo no segundo semestre do 1° ano. O calculador Aritmético é um programa criado na Linguagem de Programação C++ que permite o usuário escolher entre 4 serviços, que são: tabuada, raíz quadrada, imc e média. Eu fiquei reponsável por fazer o Imc, para fazê-lo, utilizei 3 variáveis do tipo float, sendo elas "peso", "altura" e "imc", a variável "imc" recebe o valor do "peso" vezes a "altura"². Ao final do programa é exibido o IMC do usuário.
 				</p>
@@ -82,25 +92,39 @@
 				  </ol>
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
-				      <img class="d-block w-100" src="imagens/programacao/show_do_Pedrao.png" alt="First slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/show_do_Pedrao.png" alt="First slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/show_do_Pedrao_nome.png" alt="Second slide">
+				    	<div class="container col-lg-10 col-xm-10 col-sm-10">
+				      		<img class="d-block w-100" src="imagens/programacao/show_do_Pedrao_nome.png" alt="Second slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/show_do_Pedrao1.png" alt="Third slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/show_do_Pedrao1.png" alt="Third slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/show_do_Pedrao2.png" alt="Fourth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/show_do_Pedrao2.png" alt="Fourth slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/show_do_Pedrao3.png" alt="Fifth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/show_do_Pedrao3.png" alt="Fifth slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/show_do_Pedrao_codigo.png" alt="Sixth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/show_do_Pedrao_codigo.png" alt="Sixth slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/show_do_Pedrao_codigo1.png" alt="Seventh slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/show_do_Pedrao_codigo1.png" alt="Seventh slide">
+				    	</div>
 				    </div>
 				  </div>
 				  <a class="carousel-control-prev" href="#carouselShowPedrao" role="button" data-slide="prev">
@@ -114,7 +138,7 @@
 				</div>
 			</div>
 			<div class="col-lg-6">
-				<h1>Projeto Show do Pedrão</h1>
+				<h1 id="projeto">Projeto Show do Pedrão</h1>
 				<p>
 					Esse projeto é um quiz com 10 perguntas sobre informática que teve como inspiração o programa "Show do Milhão". Foi o meu trabalho final da matéria de P.O.O JAVA no primeiro semestre do 2° ano. Tinha como intuito testar minhas habilidades com a linguagem em Programação Orientada a Objetos. Apesar do professor não ter exigido o uso de interface gráfica, busquei utilizá-la para aprimorar meus conhecimentos. O programa apresenta uma tela inicial com 2 botões, um para começar o jogo e outro para tocar a música do "Show do Milhão". Após clicar em "Começar" aparece um campo para o usuário inserir o seu nome, após isso dá-se início ao quiz, quando  quando o usuário terminar de responder as 10 perguntas, ele é redirecionado para uma tela que mostra os erros e acertos do usuário. 
 				</p>
@@ -134,23 +158,29 @@
 				  </ol>
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
-				    	<div class="container col-6">
+				    	<div class="container col-lg-6 col-xm-10 col-sm-10">
 				      		<img class="d-block w-100" src="imagens/programacao/simoia4.jpeg" alt="First slide">
 				   		</div>
 					</div>
 				    <div class="carousel-item">
-				    	<div class="container col-6">
+				    	<div class="container col-lg-6 col-xm-10 col-sm-10">
 				    		<img class="d-block w-100" src="imagens/programacao/simoia3.jpeg" alt="Second slide">
 				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				    	<img class="d-block w-100" src="imagens/programacao/simoia.jpeg" alt="Third slide">
+				    	<div class="container col-lg-10">
+				    		<img class="d-block w-100" src="imagens/programacao/simoia.jpeg" alt="Third slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				    	<img class="d-block w-100" src="imagens/programacao/simoia1.jpeg" alt="Fourth slide">
+				    	<div class="container col-lg-10">
+				    		<img class="d-block w-100" src="imagens/programacao/simoia1.jpeg" alt="Fourth slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				    	<img class="d-block w-100" src="imagens/programacao/simoia2.jpeg" alt="Fifth slide">
+				    	<div class="container col-lg-10">
+				    		<img class="d-block w-100" src="imagens/programacao/simoia2.jpeg" alt="Fifth slide">
+				    	</div>
 				    </div>
 				  </div>
 				  <a class="carousel-control-prev" href="#carouselSimoia" role="button" data-slide="prev">
@@ -164,7 +194,7 @@
 				</div>
 			</div>
 			<div class="col-lg-6">
-				<h1>Projeto SIMOIA (Sistema de Monitoramento e Irrigação Automática)</h1>
+				<h1 id="projeto">Projeto SIMOIA (Sistema de Monitoramento e Irrigação Automática)</h1>
 				<p>
 					Esse é um projeto do qual eu participei na parte da programação para Android na FEPROCIC de 2019, realizada no 2° semestre do segundo ano. Seu objetivo era coletar a água dos ares-condicionados e usá-la para irrigar a horta da escola, porém o projeto poderia ser alterado e utilizado para qualquer outro lugar. Tudo isso seria realizado de uma maneira totalmente automática com o auxílio de um aplicativo feito para Android na linguagem de programação JAVA. Sobre o programa, ele possue uma tela de Login no início e após o usuário logar ele poderá gerenciar os motores usados com o auxílio de placas de Arduino para monitorar o solo. Também possue um botão que redireciona para uma tela que informa o nome de todos os participantes do projeto (tanto os membros da programação, quanto os membros da parte da robótica e inclusíve o nome dos professores colaboradores do projeto).
 				</p>
@@ -189,37 +219,59 @@
 				  </ol>
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
-				      <img class="d-block w-100" src="imagens/programacao/hotel.jpg" alt="First slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/hotel.jpg" alt="First slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/hotel1.jpg" alt="Second slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/hotel1.jpg" alt="Second slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/hotel2.jpg" alt="Third slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/hotel2.jpg" alt="Third slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/hospede.jpg" alt="Fourth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/hospede.jpg" alt="Fourth slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/hospede1.jpg" alt="Fifth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/hospede1.jpg" alt="Fifth slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/hospede2.jpg" alt="Sixth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/hospede2.jpg" alt="Sixth slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/hospede3.jpg" alt="Seventh slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/hospede3.jpg" alt="Seventh slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/hospede4.jpg" alt="Eighth slide">
+				    	<div class="container col-lg-10">
+			      			<img class="d-block w-100" src="imagens/programacao/hospede4.jpg" alt="Eighth slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/hospede5.jpg" alt="Nineth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/hospede5.jpg" alt="Nineth slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/hospede6.jpg" alt="Teenth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/hospede6.jpg" alt="Teenth slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/hotel_codigo.png" alt="Eleventh slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/programacao/hotel_codigo.png" alt="Eleventh slide">
+				    	</div>
 				    </div>
 				  </div>
 				  <a class="carousel-control-prev" href="#carouselHotel" role="button" data-slide="prev">
@@ -233,7 +285,7 @@
 				</div>
 			</div>
 			<div class="col-lg-6">
-				<h1>Projeto Hotel Ruanda</h1>
+				<h1 id="projeto">Projeto Hotel Ruanda</h1>
 				<p>
 					Esse projeto é um Sistema de Hotel com as opções de cadastrar, atualizar, visualizar e excluir os dados dos clientes e dos funcionários do hotel e foi realizado no meu segunda semestre do 2° ano. O programa foi feito para examinar os meus conhecimentos em relação a conexão entre a linguagem de programação JAVA e o Banco de Dados, para isso o professor nos pediu para fazer um programa que fizesse um CRUD básico. O programa inicia em uma tela de login, na qual o usuário deve inserir o login e a senha pré-definidos no Banco de Dados, se os dados inseridos não forem equivalentes aos do banco de dados, aparecerá uma janela informando que o login ou a senha estão incorretos. Após inserir os dados corretamente o usuário poderá escolher gerenciar os hóspedes ou funcionários. Irei mostrar apenas as telas dos hóspedes, já que foram as que eu programei. Após escolher a opção "Hospede" o usuário poderá escolher entre as opções de cadastrar, atualizar, visualizar e cancelar a reserva do hóspede.
 				</p>
@@ -255,13 +307,19 @@
 				  </ol>
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
-				      <img class="d-block w-100" src="imagens/programacao/bird_shoes_use_case.png" alt="First slide">
+				    	<div class="container col-lg-10 col-xm-10 col-sm-10">
+				      		<img class="d-block w-100" src="imagens/programacao/bird_shoes_use_case.png" alt="First slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/bird_shoes_classes.png" alt="Second slide">
+				    	<div class="container col-lg-10 col-xm-10 col-sm-10">
+				      		<img class="d-block w-100" src="imagens/programacao/bird_shoes_classes.png" alt="Second slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/programacao/bird_shoes_atividades.png" alt="Third slide">
+				    	<div class="container col-lg-10 col-xm-10 col-sm-10">
+				      		<img class="d-block w-100" src="imagens/programacao/bird_shoes_atividades.png" alt="Third slide">
+				    	</div>
 				    </div>
 				  </div>
 				  <a class="carousel-control-prev" href="#carouselSoftware" role="button" data-slide="prev">
@@ -275,7 +333,7 @@
 				</div>
 			</div>
 			<div class="col-lg-6">
-				<h1>Projeto Bird Shoes</h1>
+				<h1 id="projeto">Projeto Bird Shoes</h1>
 				<p>
 					Esse é o projeto final da disciplina de Laboratório de Software e ainda está em desenvolvimento, no momento ele possui apenas os diagramas de Caso de Uso, de Classes e de Atividades. O objetivo do projeto é desenvolver um programa utilizando tudo o que foi aprendido durante o curso. O programa conta com um Gerente que pode adicionar ou modificar os dados de um Atendente ou de um Fornecedor e inclusive requisitar produtos para o Fornecedor. Um Cliente irá confirmar sua compra com o Atendente e ter seus dados cadastrados no Banco de Dados ao final da compra (caso seja a sua primeira compra na loja). Ao final da compra será gerada uma nota fiscal que informará os dados da compra realizada pelo cliente.  
 				</p>
@@ -283,7 +341,7 @@
 		</div>
 		<br><br>
 		<!-- Projetos de HTML/P.Web -->
-		<center><h1>Projetos de HTML/Programação Web</h1></center>
+		<center><h1 id="web" class="materia">Projetos de HTML/Programação Web</h1></center>
 		<br>
 		<!-- Projeto InkShoes -->
 		<div class="row">
@@ -296,13 +354,19 @@
 				  </ol>
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
-				      <img class="d-block w-100" src="imagens/web/sportshoes.png" alt="First slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/sportshoes.png" alt="First slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/web/sportshoes1.png" alt="Second slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/sportshoes1.png" alt="Second slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/web/sportshoes2.png" alt="Third slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/sportshoes2.png" alt="Third slide">
+				    	</div>
 				    </div>
 				  </div>
 				  <a class="carousel-control-prev" href="#carouselWeb" role="button" data-slide="prev">
@@ -316,7 +380,7 @@
 				</div>
 			</div>
 			<div class="col-lg-6">
-				<h1>Projeto Ink Shoes</h1>
+				<h1 id="projeto">Projeto Ink Shoes</h1>
 				<p>
 					Esse foi o meu projeto final de html, realizado no segundo semestre do 1° ano. É um site de vendas de calçados, eu fiquei encarregado com a página dos sapatos esportivos. O projeto tinha como objetivo a construção de um site utilizando os conhecimentos que haviamos adquirido ao longo do semestre em html e css. 
 				</p>
@@ -337,22 +401,34 @@
 				  </ol>
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
-				      <img class="d-block w-100" src="imagens/web/matematicando.png" alt="First slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/matematicando.png" alt="First slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/web/matematicando1.png" alt="Second slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/matematicando1.png" alt="Second slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/web/matematicando2.png" alt="Third slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/matematicando2.png" alt="Third slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/web/matematicando3.png" alt="Fourth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/matematicando3.png" alt="Fourth slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/web/matematicando4.png" alt="Fifth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/matematicando4.png" alt="Fifth slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/web/matematicando5.png" alt="Sixth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/matematicando5.png" alt="Sixth slide">
+				    	</div>
 				    </div>
 				  </div>
 				  <a class="carousel-control-prev" href="#carouselMatematicando" role="button" data-slide="prev">
@@ -366,7 +442,7 @@
 				</div>
 			</div>
 			<div class="col-lg-6">
-				<h1>Projeto Matematicando</h1>
+				<h1 id="projeto">Projeto Matematicando</h1>
 				<p>
 					Esse foi o meu primeiro projeto de Programação Web, realizado no primeiro semestre do 2° ano, com o objetivo de demonstrar as minhas habilidades com Javascript e html. Matematicando é um site matemático que disponiboliza 5 tipos de cálculos diferentes para o usuário (Cálculo de Áreas, Fórmula de Bhaskara, Conversão de Graus para Radiano, Cálculo de Perímetros e Cálculo de IMC), além de disponibilizar a função de realizar os cálculos, o site também apresenta uma explicação conceitual sobre os mesmos. Eu fiquei responsável pelas páginas "Conversão de Graus-Radiano" e "Fórmula de Bhaskara". A programação de ambos os cálculos segue o mesmo conceito, os valores digitados nos inputs alimentarão as variáveis e após isso será realizado a operação matemática de suas respectivas fórmulas, para então, o resultado ser exibido juntamente com o cálculo em um text área.
 				</p>
@@ -387,22 +463,34 @@
 				  </ol>
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
-				      <img class="d-block w-100" src="imagens/web/aluno_offline.png" alt="First slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/aluno_offline.png" alt="First slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/web/aluno_offline1.png" alt="Second slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/aluno_offline1.png" alt="Second slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/web/aluno_offline2.png" alt="Third slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/aluno_offline2.png" alt="Third slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/web/aluno_offline3.png" alt="Fourth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/aluno_offline3.png" alt="Fourth slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/web/aluno_offline4.png" alt="Fifth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/aluno_offline4.png" alt="Fifth slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/web/aluno_offline5.png" alt="Sixth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/aluno_offline5.png" alt="Sixth slide">
+				    	</div>
 				    </div>
 				  </div>
 				  <a class="carousel-control-prev" href="#carouselAluno" role="button" data-slide="prev">
@@ -416,7 +504,7 @@
 				</div>
 			</div>
 			<div class="col-lg-6">
-				<h1>Projeto Aluno Offline</h1>
+				<h1 id="projeto">Projeto Aluno Offline</h1>
 				<p>
 					Esse foi o meu último projeto de Programação Web do primeiro semestre do 2° ano. Feito para demonstrar minhas habilidades em PHP, nele tínhamos o objetivo de criar um site com a opção de entrar como professor para adicionar as notas de um aluno ou como aluno para ver as notas do mesmo, como ainda não estavamos vendo Banco de Dados na época, atribuimos notas fíxas para o aluno, já o professor poderia adicionar as notas que quisesse e vê-las depois, isso é possível por meio do código em PHP que fizemos para atualizar a página após o formulário das notas ser preenchido, assim modificando o conteúdo da página e mostrando as notas digitadas, que foram armazenadas em variáveis, sem trocar de página. Além de todo esse sistema, também foram feitas seções para aumentar a segurança do site, assim quando um usuário deslogar do sistema, não será possível que ele volte para a página que estava sem logar novamente.   
 				</p>
@@ -437,26 +525,34 @@
 				  </ol>
 				  <div class="carousel-inner">
 					<div class="carousel-item active">
-				  		<div class="container col-6">
+				  		<div class="container col-lg-6 col-xm-10 col-sm-10">
 					      <img class="d-block w-100" src="imagens/web/umbrella.jpg" alt="First slide">
 					    </div>
 					</div>
 					<div class="carousel-item">
-						<div class="container col-6">
+						<div class="container col-lg-6 col-xm-10 col-sm-10">
 					      <img class="d-block w-100" src="imagens/web/umbrella1.jpg" alt="Second slide">
 					    </div>
 					</div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/web/umbrella2.jpg" alt="Third slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/umbrella2.jpg" alt="Third slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/web/umbrella3.jpg" alt="Fourth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/umbrella3.jpg" alt="Fourth slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/web/umbrella4.jpg" alt="Fifth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/umbrella4.jpg" alt="Fifth slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/web/umbrella5.jpg" alt="Sixth slide">
+				      	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/web/umbrella5.jpg" alt="Sixth slide">
+				    	</div>
 				    </div>
 				  </div>
 				  <a class="carousel-control-prev" href="#carouselUmbrella" role="button" data-slide="prev">
@@ -470,198 +566,348 @@
 				</div>
 			</div>
 			<div class="col-lg-6">
-				<h1>Projeto Corporação Umbrella</h1>
+				<h1 id="projeto">Projeto Corporação Umbrella</h1>
 				<p>
 					Esse foi o meu projeto final de Programação Web II, realizado no segundo semestre do 2° ano. Tinha o objetivo de demonstrar minhas habilidades em html, PHP, Javascript e Banco de Dados. É um site de uma Corporação Medicinal que além de marcar consultas, também vende diversos produtos medicinais. Me foi designado o back-end dessas 2 partes. Na página de Venda de Medicamentos, o usuário poderia adicionar os produtos no carrinho e quando terminasse de escolher o que queria, ele poderia abrir o modal do carrinho, que se localiza dentro do menu, escolher a quantidade de cada produto e então realizar a compra, os dados da compra ficariam salvos no Banco de Dados. Na página de Agendar Consulta, o usuário deve preencher os dados exigidos no formulário, suas informações serão salvas no Banco de Dados e a consulta será agendada com sucesso. 
 				</p>
 			</div>
 		</div>
 		<br><br>
-		<!-- Projetos de Manutenção -->
-		<center><h1>Projetos de Manutenção/Redes</h1></center>
+		<!-- Projetos de Manutenção, Redes e Robótica -->
+		<center><h1 id="manutencao" class="materia">Projetos de Manutenção/Redes/Robótica</h1></center>
+		<!-- Aulas práticas e Projeto CaseMod -->
 		<br>
 		<div class="row">
 			<div class="col-lg-6">
-				<div id="carouselProgramacao" class="carousel slide">
+				<div id="carouselManutencao" class="carousel slide">
 				  <ol class="carousel-indicators">
-				    <li data-target="#carouselProgramacao" data-slide-to="0" class="active"></li>
-				    <li data-target="#carouselProgramacao" data-slide-to="1"></li>
-				    <li data-target="#carouselProgramacao" data-slide-to="2"></li>
-				    <li data-target="#carouselProgramacao" data-slide-to="3"></li>
-				    <li data-target="#carouselProgramacao" data-slide-to="4"></li>
+				    <li data-target="#carouselManutencao" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselManutencao" data-slide-to="1"></li>
+				    <li data-target="#carouselManutencao" data-slide-to="2"></li>
 				  </ol>
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
-				      <img class="d-block w-100" src="imagens/show_do_Pedrao.png" alt="First slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/manutencao/manutencao2.jpeg" alt="First slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/show_do_Pedrao_nome.png" alt="Second slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/manutencao/manutencao.jpeg" alt="Second slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/show_do_Pedrao1.png" alt="Third slide">
+				    	<div class="container col-lg-6 col-xm-10">	
+				      		<img class="d-block w-100" src="imagens/manutencao/manutencao1.jpeg" alt="Third slide">
+				    	</div>
 				    </div>
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/show_do_Pedrao2.png" alt="Fourth slide">
-				    </div>
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/show_do_Pedrao3.png" alt="Fifth slide">
-				    </div>
-				  </div>
-				  <a class="carousel-control-prev" href="#carouselProgramacao" role="button" data-slide="prev">
+				</div>
+				  <a class="carousel-control-prev" href="#carouselManutencao" role="button" data-slide="prev">
 				    <span  class="carousel-control-prev-icon" aria-hidden="true"></span>
 				    <span class="sr-only">Previous</span>
 				  </a>
-				  <a class="carousel-control-next" href="#carouselProgramacao" role="button" data-slide="next">
+				  <a class="carousel-control-next" href="#carouselManutencao" role="button" data-slide="next">
 				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 				    <span class="sr-only">Next</span>
 				  </a>
 				</div>
 			</div>
 			<div class="col-lg-6">
-				<h1>Projeto Show do Pedrão</h1>
+				<h1 id="projeto">Aulas Práticas de Manutenção e Projeto CaseMod</h1>
 				<p>
-					Esse projeto é um quiz com 10 perguntas sobre informática que teve como inspiração o programa "Show do Milhão". Foi o meu trabalho final da matéria de P.O.O JAVA. Tinha como intuito testar minhas habilidades com a linguagem em Programação Orientada a Objetos. Apesar do professor não ter exigido o uso de interface gráfica, busquei utilizá-la para aprimorar meus conhecimentos. O programa apresenta uma tela inicial com 2 botões, um para começar o jogo e outro para tocar a música do "Show do Milhão". Após clicar em "Começar" aparece um campo para o usuário inserir o seu nome, após isso dá-se início ao quiz, quando  quando o usuário terminar de responder as 10 perguntas, ele é redirecionado para uma tela que mostra os erros e acertos do usuário. 
+					As 2 primeiras imagens são das aulas práticas de Manutenção de Computadores, nessas aulas, obtive diversas habilidades, como por exemplo: Formatar, Desmontar, Montar e Gerar Relatórios de Computadores. A última imagem é referente ao projeto da FEPROCIC (Feira Profissional Cinetífica e Cultural) de 2018, na qual participei do projeto "CaseMod", que tinha como objetivo montar computadores em estruturas diferentes da padrão (Gabinete), como nos é mostrado na imagem, um computador sendo montado em uma superfície de acrílico, essa participação nesse projeto aprimorou consideravelmente minhas habilidades em Manutenção de Computadores.  
 				</p>
 			</div>
 		</div>
-		<br><br>	
+		<br><br>
+		<!-- Aulas de Redes -->
+		<br>
+		<div class="row">
+			<div class="col-lg-6">
+				<div id="carouselRedes" class="carousel slide">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselRedes" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselRedes" data-slide-to="1"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/manutencao/redes.jpeg" alt="First slide">
+				    	</div>
+				    </div>
+				    <div class="carousel-item">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/manutencao/redes1.jpeg" alt="Second slide">
+				    	</div>
+				    </div>
+				</div>
+				  <a class="carousel-control-prev" href="#carouselRedes" role="button" data-slide="prev">
+				    <span  class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselRedes" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<h1 id="projeto">Aulas de Redes de Computadores</h1>
+				<p>
+					A primeira imagem é de uma aula de cabeamento realizada recentemente no primeiro bimestre de 2020, foi uma aula realizada para praticarmos a construção de cabos de rede e aprimorarmos nossas habilidades de construção dos mesmos. A segunda imagem mostra alguns dos cabos de rede que eu fiz. Além de aulas de cabeamento, também vimos no decorrer do curso os tipos de redes e sobre IP. 
+				</p>
+			</div>
+		</div>
+		<br><br>
+		<!-- Aulas de Robótica -->
+		<br>
+		<div class="row">
+			<div class="col-lg-6">
+				<div id="carouselRobotica" class="carousel slide">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselRobotica" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselRobotica" data-slide-to="1"></li>
+				    <li data-target="#carouselRobotica" data-slide-to="2"></li>
+				    <li data-target="#carouselRobotica" data-slide-to="3"></li>
+				    <li data-target="#carouselRobotica" data-slide-to="4"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/robotica/robotica.jpeg" alt="First slide">
+				    	</div>
+				    </div>
+				    <div class="carousel-item">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/robotica/robotica1.jpeg" alt="Second slide">
+				    	</div>
+				    </div>
+				    <div class="carousel-item">
+				    	<div class="container col-lg-10">	
+				      		<img class="d-block w-100" src="imagens/robotica/robotica2.jpeg" alt="Third slide">
+				    	</div>
+				    </div>
+				    <div class="carousel-item">
+				    	<div class="container col-lg-10">	
+				      		<img class="d-block w-100" src="imagens/robotica/robotica3.jpeg" alt="Third slide">
+				    	</div>
+				    </div>
+				    <div class="carousel-item">
+				    	<div class="container col-lg-10">	
+				      		<img class="d-block w-100" src="imagens/robotica/robotica4.jpeg" alt="Fourth slide">
+				    	</div>
+				    </div>
+				</div>
+				  <a class="carousel-control-prev" href="#carouselRobotica" role="button" data-slide="prev">
+				    <span  class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselRobotica" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<h1 id="projeto">Aulas de Robótica</h1>
+				<p>
+					Essas imagens são das aulas de robótica que tivemos no primeiro semestre do 2° ano, nessas aulas aprendemos a utilizar a placa de Arduino Uno e programá-la na linguagem de programação C, as imagens mostram algumas atividades que eu fiz, de acender leds. No Trabalho final construí um Carrinho Seguidor de Linha, mas infelizmente não possuo fotos do mesmo. 
+				</p>
+			</div>
+		</div>
+		<br><br>			
 		<!-- Projetos de Design -->
-		<center><h1>Projetos de Design</h1></center>
+		<center><h1 id="design" class="materia">Projetos de Design</h1></center>
+		<!-- Aulas de Design -->
 		<br>
 		<div class="row">
 			<div class="col-lg-6">
-				<div id="carouselProgramacao" class="carousel slide">
+				<div id="carouselDesign" class="carousel slide">
 				  <ol class="carousel-indicators">
-				    <li data-target="#carouselProgramacao" data-slide-to="0" class="active"></li>
-				    <li data-target="#carouselProgramacao" data-slide-to="1"></li>
-				    <li data-target="#carouselProgramacao" data-slide-to="2"></li>
-				    <li data-target="#carouselProgramacao" data-slide-to="3"></li>
-				    <li data-target="#carouselProgramacao" data-slide-to="4"></li>
+				    <li data-target="#carouselDesign" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselDesign" data-slide-to="1"></li>
 				  </ol>
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
-				      <img class="d-block w-100" src="imagens/design/dvdKanata_no_Astra.png" alt="First slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/design/carro.png" alt="First slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/design/cd_Astra.png" alt="Second slide">
-				    </div>
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/show_do_Pedrao1.png" alt="Third slide">
-				    </div>
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/show_do_Pedrao2.png" alt="Fourth slide">
-				    </div>
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/show_do_Pedrao3.png" alt="Fifth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/design/Pizzaria.png" alt="Second slide">
+				    	</div>
 				    </div>
 				  </div>
-				  <a class="carousel-control-prev" href="#carouselProgramacao" role="button" data-slide="prev">
+				  <a class="carousel-control-prev" href="#carouselDesign" role="button" data-slide="prev">
 				    <span  class="carousel-control-prev-icon" aria-hidden="true"></span>
 				    <span class="sr-only">Previous</span>
 				  </a>
-				  <a class="carousel-control-next" href="#carouselProgramacao" role="button" data-slide="next">
+				  <a class="carousel-control-next" href="#carouselDesign" role="button" data-slide="next">
 				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 				    <span class="sr-only">Next</span>
 				  </a>
 				</div>
 			</div>
 			<div class="col-lg-6">
-				<h1>Projeto Show do Pedrão</h1>
+				<h1 id="projeto">Aulas de Design</h1>
 				<p>
-					Esse projeto é um quiz com 10 perguntas sobre informática que teve como inspiração o programa "Show do Milhão". Foi o meu trabalho final da matéria de P.O.O JAVA. Tinha como intuito testar minhas habilidades com a linguagem em Programação Orientada a Objetos. Apesar do professor não ter exigido o uso de interface gráfica, busquei utilizá-la para aprimorar meus conhecimentos. O programa apresenta uma tela inicial com 2 botões, um para começar o jogo e outro para tocar a música do "Show do Milhão". Após clicar em "Começar" aparece um campo para o usuário inserir o seu nome, após isso dá-se início ao quiz, quando  quando o usuário terminar de responder as 10 perguntas, ele é redirecionado para uma tela que mostra os erros e acertos do usuário. 
+					Essas são algumas atividades que realizei nas aulas de Design no segundo semestre do 2° ano, a primeira imagem é o anúncio de um carro. Já a segunda imagem é a Social Mídia de uma pizzaria. Ambas foram criadas no Editor de Imagens Photoshop.  
 				</p>
 			</div>
-		</div>
-		<br><br>	
-		<!-- Projetos de Robótica -->
-		<center><h1>Projetos de Robótica</h1></center>
+		</div>	
+		<br><br>
+		<!-- Projeto CD e DVD Kanata no Astra -->
 		<br>
 		<div class="row">
 			<div class="col-lg-6">
-				<div id="#carouselRobotica" class="carousel slide">
+				<div id="carouselAstra" class="carousel slide">
 				  <ol class="carousel-indicators">
-				    <li data-target="#carouselProgramacao" data-slide-to="0" class="active"></li>
-				    <li data-target="#carouselProgramacao" data-slide-to="1"></li>
-				    <li data-target="#carouselProgramacao" data-slide-to="2"></li>
-				    <li data-target="#carouselProgramacao" data-slide-to="3"></li>
-				    <li data-target="#carouselProgramacao" data-slide-to="4"></li>
+				    <li data-target="#carouselAstra" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselAstra" data-slide-to="1"></li>
 				  </ol>
 				  <div class="carousel-inner">
 				    <div class="carousel-item active">
-				      <img class="d-block w-100" src="imagens/show_do_Pedrao.png" alt="First slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/design/dvdKanata_no_Astra.png" alt="First slide">
+				    	</div>
 				    </div>
 				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/show_do_Pedrao_nome.png" alt="Second slide">
-				    </div>
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/show_do_Pedrao1.png" alt="Third slide">
-				    </div>
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/show_do_Pedrao2.png" alt="Fourth slide">
-				    </div>
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="imagens/show_do_Pedrao3.png" alt="Fifth slide">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/design/cd_Astra.png" alt="Second slide">
+				    	</div>
 				    </div>
 				  </div>
-				  <a class="carousel-control-prev" href="#carouselProgramacao" role="button" data-slide="prev">
+				  <a class="carousel-control-prev" href="#carouselAstra" role="button" data-slide="prev">
 				    <span  class="carousel-control-prev-icon" aria-hidden="true"></span>
 				    <span class="sr-only">Previous</span>
 				  </a>
-				  <a class="carousel-control-next" href="#carouselProgramacao" role="button" data-slide="next">
+				  <a class="carousel-control-next" href="#carouselAstra" role="button" data-slide="next">
 				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 				    <span class="sr-only">Next</span>
 				  </a>
 				</div>
 			</div>
 			<div class="col-lg-6">
-				<h1>Projeto Show do Pedrão</h1>
+				<h1 id="projeto">Projeto CD/DVD</h1>
 				<p>
-					Esse projeto é um quiz com 10 perguntas sobre informática que teve como inspiração o programa "Show do Milhão". Foi o meu trabalho final da matéria de P.O.O JAVA. Tinha como intuito testar minhas habilidades com a linguagem em Programação Orientada a Objetos. Apesar do professor não ter exigido o uso de interface gráfica, busquei utilizá-la para aprimorar meus conhecimentos. O programa apresenta uma tela inicial com 2 botões, um para começar o jogo e outro para tocar a música do "Show do Milhão". Após clicar em "Começar" aparece um campo para o usuário inserir o seu nome, após isso dá-se início ao quiz, quando  quando o usuário terminar de responder as 10 perguntas, ele é redirecionado para uma tela que mostra os erros e acertos do usuário. 
+					O projeto foi realizado na disciplina de Design, no segundo semestre do 2°ano. Nele tive que criar a Capa e o CD da obra "Kanata no Astra (em inglês: Astra Lost in Space)", no editor de imagens Photoshop! 
 				</p>
 			</div>
-		</div>
+		</div>	
+		<br><br>
+		<!-- Projeto Rosy Stylus -->
+		<br>
+		<div class="row">
+			<div class="col-lg-6">
+				<div id="carouselSalao" class="carousel slide">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselSalao" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselSalao" data-slide-to="1"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/design/logoSalao.png" alt="First slide">
+				    	</div>
+				    </div>
+				    <div class="carousel-item">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/design/mockup_logo.png" alt="Second slide">
+				    	</div>
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselSalao" role="button" data-slide="prev">
+				    <span  class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselSalao" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<h1 id="projeto">Projeto Rosy Stylus</h1>
+				<p>
+					Esse foi o meu projeto final de Design, realizado no segundo semestre do 2° ano. Nele eu e minha equipe fizemos uma campanha publicitária do Salão de Beleza: Rosy Stylus. Eu fiquei encarregado de fazer a logo no Photoshop. Ela pode ser observada nas imagens, juntamente com um Mockup da mesma. 
+				</p>
+			</div>
+		</div>	
+		<br><br>
+		<!-- Projeto Folder Literatura -->
+		<br>
+		<div class="row">
+			<div class="col-lg-6">
+				<div id="carouselFolder" class="carousel slide">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselFolder" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselFolder" data-slide-to="1"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/design/folder.png" alt="First slide">
+				    	</div>
+				    </div>
+				    <div class="carousel-item">
+				    	<div class="container col-lg-10">
+				      		<img class="d-block w-100" src="imagens/design/folder1.png" alt="Second slide">
+				    	</div>
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselFolder" role="button" data-slide="prev">
+				    <span  class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselFolder" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<h1 id="projeto">Folder da Obra Clara dos Anjos</h1>
+				<p>
+					Esse é um Folder que eu fiz no editor de imagens Illustrator, juntamente com um outro colega, no primeiro bimestre do 3° ano, para um trabalho de Literatura. As imagens que seguem no slide são apenas as partes editadas ou criadas por mim. 
+				</p>
+			</div>
+		</div>	
 	</div>
-	<br><br>	
-	<button class="fixed-bottom">
-		<a href="#"><img src="imagens/v.png" width="100px;"></a>
-	</button>
-
+	<br><br>
+	<div id="voltar">
+		<a href="#"><img src="imagens/v.png" width="70px;"></a>
+	</div>
 	<hr>
-
-		<!-- Footer -->
-	<footer class="page-footer font-small stylish-color-dark pt-4">
-
-	  <!-- Footer Links -->
-	  <div class="container text-center text-lg-left">
-
-	    <!-- Grid row -->
-	    <div class="row">
-	      <h1>Sobre o Criador do Site</h1>
-
-	      <hr class="clearfix w-100 d-lg-none">
-
-	      <div class="col-lg-4 mx-auto">
-	        <h2 class="font-weight-bold mt-3 mb-4">Vitor Lucas</h2>
-	        <img src="imagens/vitor.JPEG" style="width: 200px;">
-	        <h5 class="font-weight-bold mt-3 mb-4">Aluno da E.E.E.P Professora Luiza de Teodoro Vieira</h5>
-	      </div>
-	      <div class="col-lg-7 mx-auto">
-	        <h5 class="font-weight-bold  mt-3 mb-4">
-	        	Essa página apresenta todos os projetos feitos pelo estudante Vitor Lucas no curso de Técnico em Informática durante os 3 anos do ensino médio (2018-2020). Esse portfólio tem o intuito de demonstrar a evolução do aluno com o avanço do curso.
-	        </h5>
-	      </div>
-	    </div>
-	  </div>
-	  <hr>
-	  <!-- Copyright -->
-	  <div class="footer-copyright text-center py-3">Acesse o meu Github:
-	    <a href="https://github.com/SenaVitor?tab=repositories" target="_blank">Vitor Lucas de Sena Lima</a>
-	  </div>
-	  <!-- Copyright -->
-
+	<footer id="sobre">
+		<div align="center">			
+			<h1 class="materia">Sobre Mim</h1>
+	   		<ul class="navbar-nav mr-auto">
+		    	<li>
+		    		<img src="imagens/vitor.jpeg" width="200px;">
+	   			</li>
+	   		</ul>
+			<div class="col-lg-6">
+	    		<ul class="navbar-nav mr-auto">
+		    		<li><h2 id="projeto">Olá, eu sou o Vitor Lucas de Sena Lima!</h2></li>
+		    			<li>Idade: 17 Anos</li>
+		    			<li>Telefone: (85)99924-0090</li>
+		    			<li>
+		    				Github: SenaVitor
+							<a href="https://github.com/SenaVitor?tab=repositories" target="_blank">
+								<img width="30px;" src="imagens/github.png">
+							</a>
+		    			</li>
+		    			<li>Email: vitorlucasdesenalima@gmail.com</li>
+		    		<p>
+		    			Nasci em 17/08/2002. Estou cursando o 3 ° ano de Informática na E.E.E.P Professora Luiza de Teodoro Vieira. Estou me dedicando bastante nos estudos para poder passar no ENEM e cursar Ciências da Computação em alguma Universidade!
+		    		</p>
+		    	</ul>
+	   		</div>
+   		</div>
+   		<hr>
+		<p align="center"> Vitor Lucas de Sena Lima | copyright | 2020</p>
 	</footer>
-	<!-- Footer -->
-
 	<script src="bootstrap/js/jquery.min.js"></script>
 	<script src="bootstrap/js/popper.min.js"></script>
 	<script src="bootstrap/js/bootstrap.js"></script>
